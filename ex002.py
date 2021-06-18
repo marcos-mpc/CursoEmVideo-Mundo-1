@@ -1,4 +1,4 @@
 dia = input('Dia: ')
-mes = input('mês: ')
-ano = input('ano: ')
+mes = input('Mês: ')
+ano = input('Ano: ')
 print('você nasceu no dia', dia, 'no mês', mes, 'no ano de', ano)
