@@ -1,0 +1,5 @@
+print(20*'=')
+print('CONVERSOR DE MEDIDAS')
+print(20*'=')
+n = int(input('digite um valor para ser convertido: '))
+print('{} metros convertido em:\ncentimetros fica {}cm\ncovertido em milimetros fica {}mm'.format(n, (n*100), (n*1000)))

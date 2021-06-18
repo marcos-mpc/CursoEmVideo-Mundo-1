@@ -1,0 +1,8 @@
+print(20*'=')
+print('ESAMINAR FRASE')
+print(20*'=')
+frase = input('digite uma frase: ').strip()
+frase1 = frase.upper()
+print('a letra A aparece {}x nessa frase'.format(frase1.count('A')))
+print('ela aparece na posição {} pela primeira vez'.format(frase1.find('A')+1))
+print('e aparece na posição {} pela ultima vez'.format(frase1.rfind('A')+1))

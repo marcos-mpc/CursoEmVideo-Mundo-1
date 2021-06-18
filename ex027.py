@@ -1,0 +1,6 @@
+print(30*'*')
+print('PRIMEIRO E ULTIMO NOME')
+print(30*'*')
+nome = input('digite seu nome: ')
+nome1 = nome.split()
+print('seu primeiro nome é: {}'.format(nome1[0]))

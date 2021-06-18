@@ -1,0 +1,5 @@
+print(18*'=')
+print('CONVERSÃO DE MOEDA')
+print(18*'=')
+n = float(input('digite quanto de dinheiro vc tem em sua carteira: R$'))
+print('vc pode comprar US${:.2f} com os R$ {:.2f} que vc tem!'.format((n/3.27), n))
