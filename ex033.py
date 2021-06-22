@@ -8,7 +8,7 @@ if n1 > n2 and n1 > n3:
     print('o {} é o maior numero!'.format(n1))
 else:
     print('o {} é o menor numero!'.format(n1))
-if n2 > n1 and n2 >n3:
+if n2 > n1 and n2 > n3:
     print('o {} é o maior numero!'.format(n2))
 else:
     print('o {} é o menor numero!'.format(n2))
